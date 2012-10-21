@@ -38,7 +38,8 @@ describe "Static pages" do
   describe "About page" do
 
     it "should have the h1 'About Us'" do
-      visit about_path      page.should have_selector('h1', :text => 'About Us')
+      visit about_path
+      page.should have_selector('h1', :text => 'About Us')
     end
 
     it "should have the title 'About Us'" do
