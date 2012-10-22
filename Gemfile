@@ -10,6 +10,10 @@ group :development, :test do
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+  gem 'quiet_assets'
+  gem 'factory_girl_rails'
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 gem 'annotate', '2.5.0', group: :development
